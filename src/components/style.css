@@ -1,0 +1,172 @@
+
+
+.footer-wave {
+  position: relative;
+  width: 100%;
+}
+
+.footer-wave svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+ /* .signin {
+    background-color: #fff5e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .signin .div {
+    background-color: #fff5e9;
+    height: 832px;
+    overflow: hidden;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .signin .r-volutionnez-la {
+    color: #000000;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 603px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 232px;
+    text-align: left;
+    width: 601px;
+  }
+  
+  .signin .group {
+    height: 444px;
+    left: 73px;
+    position: absolute;
+    top: 83px;
+    width: 467px;
+  }
+  
+  .signin .overlap {
+    background-color: #f8ead9;
+    border: 2px solid;
+    border-color: #e66b00;
+    border-radius: 7px;
+    height: 444px;
+    position: relative;
+    width: 463px;
+  }
+  
+  .signin .rectangle {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    left: 39px;
+    position: absolute;
+    top: 213px;
+    width: 342px;
+  }
+  
+  .signin .text-wrapper {
+    color: #000000;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    width: 281px;
+  }
+  
+  .signin .rectangle-2 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    left: 39px;
+    position: absolute;
+    top: 78px;
+    width: 342px;
+  }
+  
+  .signin .text-wrapper-2 {
+    color: #000000;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 179px;
+    width: 109px;
+  }
+  
+  .signin .overlap-group-wrapper {
+    height: 50px;
+    left: 99px;
+    position: absolute;
+    top: 334px;
+    width: 264px;
+  }
+  
+  .signin .overlap-group {
+    background-color: #e66b00;
+    border-radius: 10px;
+    height: 50px;
+    position: relative;
+    width: 262px;
+  }
+  
+  .signin .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+    width: 135px;
+  }
+  
+  .signin .p {
+    color: #000000;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 132px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 540px;
+    white-space: nowrap;
+  }
+  
+  .signin .frame {
+    align-items: flex-start;
+    box-shadow: 2px 4px 3px #00000040;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 398px;
+    left: 603px;
+    padding: 10px;
+    position: absolute;
+    top: 458px;
+    width: 732px;
+  }
+  
+  .signin .image {
+    align-self: stretch;
+    height: 355.38px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }  */
+  
