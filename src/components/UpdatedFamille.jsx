@@ -14,33 +14,10 @@ export default function UpdatedFamille () {
     const token = localStorage.getItem("token");
     const navigate = useNavigate ();
 
-    const handleFetchFamille= async()=>{
-        setLoading(true);
-        try {
-            let response = await fetch("http://172.19.120.186:8002/api/fam_articles/"+id,{
-                headers:{
-                    "Content-Type": "application/json",
-                    "authorization": `Bearer ${token}`
-                }
-            });
-            if(response.status !== 200){
-                console.log("Failed to fecth");
-                return;
-            }
-            let result = await response.json();
-            setFamilyName(result?.name);
-            setCode(result?.code);
-
-        } catch (error) {
-            console.log(error);
-        }finally{
-            setLoading(false);
-        }
-    }
 
     useEffect(()=>{
         handleFetchFamille();
-    }, [id])
+    }, [id]);
 
     const handleUpdated = async (e) => {
         e.preventDefault();
@@ -68,12 +45,37 @@ export default function UpdatedFamille () {
                 navigate ("/famille_article");
                 }
             } catch (error) {
-                console.log(error)
+                console.log(error);
                 setError(error.message);
             }finally {
                 setLoading(false);
             }
     };
+
+
+     const handleFetchFamille= async()=>{
+        setLoading(true);
+        try {
+            let response = await fetch("http://172.19.120.186:8002/api/fam_articles/"+id,{
+                headers:{
+                    "Content-Type": "application/json",
+                    "authorization": `Bearer ${token}`
+                }
+            });
+            if(response.status !== 200){
+                console.log("Failed to fecth");
+                return;
+            }
+            let result = await response.json();
+            setFamilyName(result?.name);
+            setCode(result?.code);
+
+        } catch (error) {
+            console.log(error);
+        }finally{
+            setLoading(false);
+        }
+    }
 
         const handleChange = (e) => {
             const { name, value } = e.target;
